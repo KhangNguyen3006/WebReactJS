@@ -9,7 +9,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 import logo from '../../assets/imgs/logo.png'
 
-export class NavMenuDesktop extends Component {
+export class NavMenuMobile extends Component {
   render() {
     return (
       <Navbar bg="light" className='navbar' fluid='true' fixed='top'>

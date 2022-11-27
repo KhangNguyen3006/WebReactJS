@@ -37,24 +37,24 @@ export class NavMenuDesktop extends Component {
                 </Button>
 
                 <Button variant="primary">
-                  <i className="fas fa-shopping-cart"></i><br />
+                  <i class="fas fa-shopping-cart"></i><br />
                   Cart
                 </Button>
 
                 <Button variant="primary">
-                  <i className="fas fa-user"></i><br />
+                  <i class="fas fa-user"></i><br />
                   Login
                 </Button>
 
 
                 <Button variant="primary">
-                  <i className="fas fa-registered"></i><br />
+                  <i class="fas fa-registered"></i><br />
                   Register
                 </Button>
 
 
                 <Button variant="primary">
-                  <i className="fas fa-sign-out-alt"></i><br />
+                  <i class="fas fa-sign-out-alt"></i><br />
                   Register
                 </Button>
 
@@ -62,44 +62,12 @@ export class NavMenuDesktop extends Component {
             </Col>
           </Row>
 
-          <Row className='globalnav'>
+          <Row >
             <Col>
-
               <Button variant="primary">
-                <i className="fas fa-home"></i> &nbsp;
+                <i class="fas fa-home"></i><br />
                 HomePage
               </Button>
-
-              <Button variant="primary">
-                <i class="fas fa-newspaper"></i> &nbsp;
-                News
-              </Button>
-
-
-              <Button variant="primary">
-                <i class="fas fa-map-marker-alt"></i> &nbsp;
-                Address
-              </Button>
-
-
-              <Button variant="primary">
-                <i class="fas fa-phone-alt"></i> &nbsp;
-                Phone
-              </Button>
-
-
-              <Button variant="primary">
-                <i class="fas fa-bookmark"></i> &nbsp;
-                Sales policy
-              </Button>
-
-
-              <Button variant="primary">
-              <i class="fas fa-house-user"></i> &nbsp;
-                Warranty Policy
-              </Button>
-
-
             </Col>
           </Row>
 

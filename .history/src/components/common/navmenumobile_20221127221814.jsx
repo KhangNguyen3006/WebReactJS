@@ -9,7 +9,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 import logo from '../../assets/imgs/logo.png'
 
-export class NavMenuDesktop extends Component {
+export class NavMenuMobile extends Component {
   render() {
     return (
       <Navbar bg="light" className='navbar' fluid='true' fixed='top'>
@@ -20,8 +20,7 @@ export class NavMenuDesktop extends Component {
               <InputGroup className="mt-3">
                 <Form.Control
                   placeholder="Search"
-                  name='Search'
-                />
+                  name='Search' />
                 <Button variant="outline-secondary" id="button-addon2">
                   <i className="fas fa-search"></i>
                 </Button>
@@ -109,4 +108,4 @@ export class NavMenuDesktop extends Component {
   }
 }
 
-export default NavMenuDesktop
+export default NavMenuMobile

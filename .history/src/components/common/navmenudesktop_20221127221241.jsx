@@ -66,36 +66,36 @@ export class NavMenuDesktop extends Component {
             <Col>
 
               <Button variant="primary">
-                <i className="fas fa-home"></i> &nbsp;
+                <i className="fas fa-home"></i>
                 HomePage
               </Button>
 
               <Button variant="primary">
-                <i class="fas fa-newspaper"></i> &nbsp;
+                <i class="fas fa-newspaper"></i>
                 News
               </Button>
 
 
               <Button variant="primary">
-                <i class="fas fa-map-marker-alt"></i> &nbsp;
+                <i class="fas fa-map-marker-alt"></i>
                 Address
               </Button>
 
 
               <Button variant="primary">
-                <i class="fas fa-phone-alt"></i> &nbsp;
+                <i class="fas fa-phone-alt"></i>
                 Phone
               </Button>
 
 
               <Button variant="primary">
-                <i class="fas fa-bookmark"></i> &nbsp;
+                <i class="fas fa-bookmark"></i>
                 Sales policy
               </Button>
 
 
               <Button variant="primary">
-              <i class="fas fa-house-user"></i> &nbsp;
+                <i class="fas fa-bookmark"></i>
                 Warranty Policy
               </Button>
 

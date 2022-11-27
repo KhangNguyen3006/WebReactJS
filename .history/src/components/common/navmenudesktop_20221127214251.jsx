@@ -17,7 +17,7 @@ export class NavMenuDesktop extends Component {
           <Row>
             <Col lg={4} md={4} xs={12}><img src={logo} alt="" className='nav-logo' /></Col>
             <Col lg={4} md={4} xs={12}>
-              <InputGroup className="mt-3">
+              <InputGroup className="mt-4">
                 <Form.Control
                   placeholder="Search"
                   name='Search'
@@ -28,7 +28,7 @@ export class NavMenuDesktop extends Component {
               </InputGroup>
             </Col>
             <Col lg={4} md={4} xs={12}>
-              <div className='mt-2'>
+              <div className='mt-4'>
 
                 <Button variant="primary">
                   <i className="fas fa-comment"></i><Badge bg="secondary">9</Badge><br />
@@ -37,72 +37,13 @@ export class NavMenuDesktop extends Component {
                 </Button>
 
                 <Button variant="primary">
-                  <i className="fas fa-shopping-cart"></i><br />
-                  Cart
-                </Button>
-
-                <Button variant="primary">
-                  <i className="fas fa-user"></i><br />
+                  <i class="fas fa-user"></i><br />
                   Login
-                </Button>
-
-
-                <Button variant="primary">
-                  <i className="fas fa-registered"></i><br />
-                  Register
-                </Button>
-
-
-                <Button variant="primary">
-                  <i className="fas fa-sign-out-alt"></i><br />
-                  Register
                 </Button>
 
               </div>
             </Col>
           </Row>
-
-          <Row className='globalnav'>
-            <Col>
-
-              <Button variant="primary">
-                <i className="fas fa-home"></i> &nbsp;
-                HomePage
-              </Button>
-
-              <Button variant="primary">
-                <i class="fas fa-newspaper"></i> &nbsp;
-                News
-              </Button>
-
-
-              <Button variant="primary">
-                <i class="fas fa-map-marker-alt"></i> &nbsp;
-                Address
-              </Button>
-
-
-              <Button variant="primary">
-                <i class="fas fa-phone-alt"></i> &nbsp;
-                Phone
-              </Button>
-
-
-              <Button variant="primary">
-                <i class="fas fa-bookmark"></i> &nbsp;
-                Sales policy
-              </Button>
-
-
-              <Button variant="primary">
-              <i class="fas fa-house-user"></i> &nbsp;
-                Warranty Policy
-              </Button>
-
-
-            </Col>
-          </Row>
-
         </Container>
       </Navbar>
     )
