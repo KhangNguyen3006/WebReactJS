@@ -19,7 +19,29 @@ export class NavMenuMobile extends Component {
 
                             <img src={logo} alt="" className='nav-logo' />
 
-                            
+
+                            <Button variant="primary">
+                                <i className="fas fa-comment"></i><Badge bg="secondary">9</Badge><br />
+                            </Button>
+
+                            <Button variant="primary">
+                                <i className="fas fa-shopping-cart"></i><br />
+                            </Button>
+
+                            <Button variant="primary">
+                                <i className="fas fa-user"></i><br />
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i className="fas fa-registered"></i><br />
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i className="fas fa-sign-out-alt"></i><br />
+                            </Button>
+
                             <Button variant="primary">
                                 <i className="fas fa-home"></i> &nbsp;
                             </Button>
@@ -50,29 +72,6 @@ export class NavMenuMobile extends Component {
 
 
 
-                            <Button variant="primary">
-                                <i className="fas fa-comment"></i><Badge bg="secondary">9</Badge><br />
-                            </Button>
-
-                            <Button variant="primary">
-                                <i className="fas fa-shopping-cart"></i><br />
-                            </Button>
-
-                            <Button variant="primary">
-                                <i className="fas fa-user"></i><br />
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i className="fas fa-registered"></i><br />
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i className="fas fa-sign-out-alt"></i><br />
-                            </Button>
-
-
                         </Col>
                         <Col lg={4} md={4} xs={12}>
                             <InputGroup className="mt-3">
@@ -83,6 +82,14 @@ export class NavMenuMobile extends Component {
                                     <i className="fas fa-search"></i>
                                 </Button>
                             </InputGroup>
+                        </Col>
+                    </Row>
+
+                    <Row className='globalnav'>
+                        <Col>
+
+                            
+
                         </Col>
                     </Row>
 

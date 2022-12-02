@@ -12,7 +12,7 @@ class HomePage extends Component {
     return (
       <div>
         <NavMenuMobile />
-        {/* <NavMenuDesktop /> */}
+        <NavMenuDesktop />
         <HomeTop />
         <FeaturedProducts />
         <NewArrival />

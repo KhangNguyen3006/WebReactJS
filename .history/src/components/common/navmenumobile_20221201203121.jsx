@@ -19,7 +19,29 @@ export class NavMenuMobile extends Component {
 
                             <img src={logo} alt="" className='nav-logo' />
 
-                            
+
+                            <Button variant="primary">
+                                <i className="fas fa-comment"></i><Badge bg="secondary">9</Badge><br />
+                            </Button>
+
+                            <Button variant="primary">
+                                <i className="fas fa-shopping-cart"></i><br />
+                            </Button>
+
+                            <Button variant="primary">
+                                <i className="fas fa-user"></i><br />
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i className="fas fa-registered"></i><br />
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i className="fas fa-sign-out-alt"></i><br />
+                            </Button>
+
                             <Button variant="primary">
                                 <i className="fas fa-home"></i> &nbsp;
                             </Button>
@@ -48,29 +70,6 @@ export class NavMenuMobile extends Component {
                                 <i class="fas fa-house-user"></i> &nbsp;
                             </Button>
 
-
-
-                            <Button variant="primary">
-                                <i className="fas fa-comment"></i><Badge bg="secondary">9</Badge><br />
-                            </Button>
-
-                            <Button variant="primary">
-                                <i className="fas fa-shopping-cart"></i><br />
-                            </Button>
-
-                            <Button variant="primary">
-                                <i className="fas fa-user"></i><br />
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i className="fas fa-registered"></i><br />
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i className="fas fa-sign-out-alt"></i><br />
-                            </Button>
 
 
                         </Col>

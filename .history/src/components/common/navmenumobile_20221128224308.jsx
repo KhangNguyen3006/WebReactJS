@@ -19,36 +19,6 @@ export class NavMenuMobile extends Component {
 
                             <img src={logo} alt="" className='nav-logo' />
 
-                            
-                            <Button variant="primary">
-                                <i className="fas fa-home"></i> &nbsp;
-                            </Button>
-
-                            <Button variant="primary">
-                                <i class="fas fa-newspaper"></i> &nbsp;
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i class="fas fa-map-marker-alt"></i> &nbsp;
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i class="fas fa-phone-alt"></i> &nbsp;
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i class="fas fa-bookmark"></i> &nbsp;
-                            </Button>
-
-
-                            <Button variant="primary">
-                                <i class="fas fa-house-user"></i> &nbsp;
-                            </Button>
-
-
 
                             <Button variant="primary">
                                 <i className="fas fa-comment"></i><Badge bg="secondary">9</Badge><br />
@@ -83,6 +53,41 @@ export class NavMenuMobile extends Component {
                                     <i className="fas fa-search"></i>
                                 </Button>
                             </InputGroup>
+                        </Col>
+                    </Row>
+
+                    <Row className='globalnav'>
+                        <Col>
+
+                            <Button variant="primary">
+                                <i className="fas fa-home"></i> &nbsp;
+                            </Button>
+
+                            <Button variant="primary">
+                                <i class="fas fa-newspaper"></i> &nbsp;
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i class="fas fa-map-marker-alt"></i> &nbsp;
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i class="fas fa-phone-alt"></i> &nbsp;
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i class="fas fa-bookmark"></i> &nbsp;
+                            </Button>
+
+
+                            <Button variant="primary">
+                                <i class="fas fa-house-user"></i> &nbsp;
+                            </Button>
+
+
                         </Col>
                     </Row>
 
