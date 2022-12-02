@@ -56,27 +56,27 @@ export class NavMenuMobile extends Component {
                             </Button>
 
                             <Button variant="primary">
-                                <i className="fas fa-newspaper"></i> &nbsp;
+                                <i class="fas fa-newspaper"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-map-marker-alt"></i> &nbsp;
+                                <i class="fas fa-map-marker-alt"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-phone-alt"></i> &nbsp;
+                                <i class="fas fa-phone-alt"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-bookmark"></i> &nbsp;
+                                <i class="fas fa-bookmark"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-house-user"></i> &nbsp;
+                                <i class="fas fa-house-user"></i> &nbsp;
                             </Button>
 
 

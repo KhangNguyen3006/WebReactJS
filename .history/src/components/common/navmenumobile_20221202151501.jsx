@@ -14,27 +14,9 @@ export class NavMenuMobile extends Component {
     constructor(){
         super();
         this.state={
-            menupanel:'menupanelhide',
-            cover:'coverhide'
+            menupanel:'menupanelshow',
+            cover:'covershow'
         }
-    }
-
-    componentDidMount(){
-        this.onclickmenu();
-    }
-
-    onclickmenu(){
-        var nutmenu=document.getElementById('menu');
-        nutmenu.addEventListener('click', this.showmenu);
-    }
-
-    showmenu(){
-        this.setState(
-            {
-                menupanel:'menupanelshow',
-                cover:'covershow'
-            }
-        )
     }
 
     render() {
@@ -56,27 +38,27 @@ export class NavMenuMobile extends Component {
                             </Button>
 
                             <Button variant="primary">
-                                <i className="fas fa-newspaper"></i> &nbsp;
+                                <i class="fas fa-newspaper"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-map-marker-alt"></i> &nbsp;
+                                <i class="fas fa-map-marker-alt"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-phone-alt"></i> &nbsp;
+                                <i class="fas fa-phone-alt"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-bookmark"></i> &nbsp;
+                                <i class="fas fa-bookmark"></i> &nbsp;
                             </Button>
 
 
                             <Button variant="primary">
-                                <i className="fas fa-house-user"></i> &nbsp;
+                                <i class="fas fa-house-user"></i> &nbsp;
                             </Button>
 
 
@@ -124,7 +106,7 @@ export class NavMenuMobile extends Component {
                 </Container>
 
                 <div id='menupanel' className={this.state.menupanel}> </div>
-                <div id='cover' className={this.state.cover}> </div>
+                <div id='cover' className='covershow'> </div>
 
             </Navbar>
         )
