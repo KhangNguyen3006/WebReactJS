@@ -92,8 +92,8 @@ export class NavMenuMobile extends Component {
 
                 </Container>
 
-                <div id='menupanel' className='menupanelshow'> </div>
-                <div id='cover' className='covershow'> </div>
+                <div id='menupanel' className='menupanelshow'></div>
+                <div id='cover' className='covershow'></div>
 
             </Navbar>
         )

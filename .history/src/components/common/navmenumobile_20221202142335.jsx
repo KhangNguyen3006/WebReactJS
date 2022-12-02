@@ -67,7 +67,7 @@ export class NavMenuMobile extends Component {
                                 <i className="fas fa-registered"></i><br />
                             </Button>
 
-                            <Button variant="primary" id="button-addon4">
+                            <Button variant="outline-secondary" id="button-addon4">
                                 <i className="fas fa-search"></i>
                             </Button>
 
@@ -83,7 +83,7 @@ export class NavMenuMobile extends Component {
                                 <Form.Control
                                     placeholder="Search"
                                     name='Search' />
-                                <Button variant="primary" id="button-addon4">
+                                <Button variant="outline-secondary" id="button-addon2">
                                     <i className="fas fa-search"></i>
                                 </Button>
                             </InputGroup>
@@ -92,8 +92,8 @@ export class NavMenuMobile extends Component {
 
                 </Container>
 
-                <div id='menupanel' className='menupanelshow'> </div>
-                <div id='cover' className='covershow'> </div>
+                <div id='menupanel'></div>
+                <div id='cover'></div>
 
             </Navbar>
         )
