@@ -1,0 +1,50 @@
+.footer-copyright {
+    background-color: #000000 !important;
+
+}
+
+.footer-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.footer-text h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #000;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.copyright-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+.footer-menu {
+    width: 100%;
+    background-color: rgba(192, 192, 192, 1.5) !important;
+}
+
+
+.footer-menu-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    color: #051b05;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.footer-icon {
+    padding: 10px 10px 5px 5px;
+    font-size: 30px;
+}

@@ -1,0 +1,49 @@
+.footer-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.cart-btn {
+    padding: 5px 15px 5px 15px;
+    color: #fafdfb;
+    border-radius: 20px !important;
+    border: 0.5px solid #051b35;
+    background: #051b35 !important;
+}
+
+.footer-bar {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    background-color: #ffff !important;
+    box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+}
+
+
+.footer-copyright{
+    background-color: #000000 !important;
+    
+}
+
+.footer-text{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+.footer-menu-title{
+    width: 100px;
+    background-color: rgba( 245, 245, 245, 1) !important; 
+}
+
+
+.footer-menu-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #051b05;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
