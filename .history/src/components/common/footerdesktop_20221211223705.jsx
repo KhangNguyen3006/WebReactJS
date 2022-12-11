@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Col, Container} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 
 class FooterDesktop extends Component {
     render() {
